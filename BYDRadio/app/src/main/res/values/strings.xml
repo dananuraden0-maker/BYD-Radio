@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kurd Radio</string>
+    <string name="tab_online">Online Radio</string>
+    <string name="tab_offline">Offline</string>
+    <string name="tab_youtube">YouTube</string>
+    <string name="tab_settings">Settings</string>
+    <string name="kurdish">Kurdish</string>
+    <string name="arabic">Arabic</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="no_net">Could not load stations. Check the internet.</string>
+    <string name="fm_am">FM / AM Radio</string>
+    <string name="fm_am_desc">Opens the car\'s built-in radio app</string>
+    <string name="favorites">Saved stations</string>
+    <string name="no_favs">No saved stations yet. Tap ☆ in Online Radio.</string>
+    <string name="choose_radio_app">Choose the radio app</string>
+    <string name="close">Close</string>
+    <string name="language">Language</string>
+    <string name="theme_color">Theme color (car color)</string>
+    <string name="updates">Updates</string>
+    <string name="current_version">Current version: %1$s</string>
+    <string name="check_update">Check for updates</string>
+    <string name="checking">Checking…</string>
+    <string name="up_to_date">You have the latest version</string>
+    <string name="update_available">New update available: %1$s</string>
+    <string name="updates_total">Total updates released: %1$d</string>
+    <string name="download_install">Download and install</string>
+    <string name="downloading">Downloading… %1$d%%</string>
+    <string name="update_error">Update error. Check the internet or repository.</string>
+    <string name="no_apk">The release has no APK file</string>
+    <string name="scan">Auto scan</string>
+    <string name="stop_scan">Keep this</string>
+    <string name="scanning_hint">Scanning stations… tap “Keep this” to stay on the current one</string>
+    <string name="search_hint">Search stations</string>
+    <string name="favorites_short">Saved</string>
+</resources>

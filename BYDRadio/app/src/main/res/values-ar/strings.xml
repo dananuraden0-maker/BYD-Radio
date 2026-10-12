@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">راديو كورد</string>
+    <string name="tab_online">راديو أونلاين</string>
+    <string name="tab_offline">أوفلاين</string>
+    <string name="tab_youtube">يوتيوب</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="kurdish">كوردي</string>
+    <string name="arabic">عربي</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="no_net">تعذر تحميل المحطات. تحقق من الإنترنت.</string>
+    <string name="fm_am">راديو FM / AM</string>
+    <string name="fm_am_desc">يفتح تطبيق الراديو المدمج في السيارة</string>
+    <string name="favorites">المحطات المحفوظة</string>
+    <string name="no_favs">لا توجد محطات محفوظة. اضغط ☆ في الراديو أونلاين.</string>
+    <string name="choose_radio_app">اختر تطبيق الراديو</string>
+    <string name="close">إغلاق</string>
+    <string name="language">اللغة</string>
+    <string name="theme_color">لون التطبيق (لون السيارة)</string>
+    <string name="updates">التحديثات</string>
+    <string name="current_version">الإصدار الحالي: %1$s</string>
+    <string name="check_update">البحث عن تحديث</string>
+    <string name="checking">جارٍ الفحص…</string>
+    <string name="up_to_date">لديك أحدث إصدار</string>
+    <string name="update_available">يوجد تحديث جديد: %1$s</string>
+    <string name="updates_total">عدد التحديثات الصادرة: %1$d</string>
+    <string name="download_install">تنزيل وتثبيت</string>
+    <string name="downloading">جارٍ التنزيل… %1$d%%</string>
+    <string name="update_error">خطأ في التحديث. تحقق من الإنترنت.</string>
+    <string name="no_apk">لا يوجد ملف APK في هذا الإصدار</string>
+    <string name="scan">بحث تلقائي</string>
+    <string name="stop_scan">إيقاف عند هذه</string>
+    <string name="scanning_hint">جارٍ البحث عن المحطات… اضغط «إيقاف عند هذه» للبقاء على المحطة الحالية</string>
+    <string name="search_hint">ابحث عن محطة</string>
+    <string name="favorites_short">المفضلة</string>
+</resources>

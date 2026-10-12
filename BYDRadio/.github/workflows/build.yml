@@ -1,0 +1,47 @@
+name: Build APK
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: 8.7
+      - name: Prepare keystore
+        env:
+          KS_B64: ${{ secrets.KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+            echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> $GITHUB_ENV
+            echo "KEY_ALIAS=bydradio" >> $GITHUB_ENV
+          else
+            echo "::warning::KEYSTORE_BASE64 secret missing - using debug signing (updates will not install over older builds)"
+          fi
+      - name: Build
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: gradle assembleRelease --no-daemon -PverCode=${{ github.run_number }} -PghRepo=${{ github.repository }}
+      - name: Rename APK
+        run: cp app/build/outputs/apk/release/app-release.apk BYDRadio.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BYDRadio
+          path: BYDRadio.apk
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Version 1.0.${{ github.run_number }}
+          body: ${{ github.event.head_commit.message }}
+          files: BYDRadio.apk

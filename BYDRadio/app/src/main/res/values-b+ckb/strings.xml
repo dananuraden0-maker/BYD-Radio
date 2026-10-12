@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ڕادیۆی کورد</string>
+    <string name="tab_online">ڕادیۆی ئۆنلاین</string>
+    <string name="tab_offline">ئۆفلاین</string>
+    <string name="tab_youtube">یوتوب</string>
+    <string name="tab_settings">ڕێکخستنەکان</string>
+    <string name="kurdish">کوردی</string>
+    <string name="arabic">عەرەبی</string>
+    <string name="loading">چاوەڕێ بکە…</string>
+    <string name="retry">دووبارە هەوڵبدەرەوە</string>
+    <string name="no_net">ستێیشنەکان هەڵنەگیران. ئینتەرنێتەکەت بپشکنە.</string>
+    <string name="fm_am">ڕادیۆی FM / AM</string>
+    <string name="fm_am_desc">ئەپی ڕادیۆی ناو سەیارەکە دەکاتەوە</string>
+    <string name="favorites">ستێیشنە پاشەکەوتکراوەکان</string>
+    <string name="no_favs">هێشتا هیچ ستێیشنێکت پاشەکەوت نەکردووە. لە ڕادیۆی ئۆنلاین ☆ دابگرە.</string>
+    <string name="choose_radio_app">ئەپی ڕادیۆ هەڵبژێرە</string>
+    <string name="close">داخستن</string>
+    <string name="language">زمان</string>
+    <string name="theme_color">ڕەنگی بەرنامە (ڕەنگی سەیارە)</string>
+    <string name="updates">ئەپدەیتەکان</string>
+    <string name="current_version">وەشانی ئێستا: %1$s</string>
+    <string name="check_update">پشکنینی ئەپدەیت</string>
+    <string name="checking">دەپشکنرێت…</string>
+    <string name="up_to_date">وەشانی کۆتایی لای تۆیە</string>
+    <string name="update_available">ئەپدەیتی نوێ هەیە: %1$s</string>
+    <string name="updates_total">ژمارەی ئەپدەیتە بڵاوکراوەکان: %1$d</string>
+    <string name="download_install">دابەزاندن و دامەزراندن</string>
+    <string name="downloading">دادەبەزێت… %1$d%%</string>
+    <string name="update_error">هەڵە لە ئەپدەیت. ئینتەرنێتەکەت بپشکنە.</string>
+    <string name="no_apk">ئەم وەشانە فایلی APK ی نییە</string>
+    <string name="scan">گەڕانی خۆکار</string>
+    <string name="stop_scan">ئەمە بمێنێتەوە</string>
+    <string name="scanning_hint">ستێیشنەکان دەگەڕێت… «ئەمە بمێنێتەوە» دابگرە بۆ مانەوە لەسەر ستێیشنی ئێستا</string>
+    <string name="search_hint">بگەڕێ بۆ ستێیشن</string>
+    <string name="favorites_short">دڵخواز</string>
+</resources>
